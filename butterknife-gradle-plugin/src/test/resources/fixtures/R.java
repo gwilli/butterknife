@@ -37,7 +37,11 @@ public final class R {
     public static int res = 0x7f040008;
   }
 
-  public static final class string {
+  public static final class layout {
     public static int res = 0x7f040009;
+  }
+
+  public static final class string {
+    public static int res = 0x7f040010;
   }
 }

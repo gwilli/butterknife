@@ -9,6 +9,7 @@ import android.support.annotation.DimenRes;
 import android.support.annotation.DrawableRes;
 import android.support.annotation.IdRes;
 import android.support.annotation.IntegerRes;
+import android.support.annotation.LayoutRes;
 import android.support.annotation.StringRes;
 
 public final class R2 {
@@ -52,8 +53,13 @@ public final class R2 {
     public static final int res = 0x7f040008;
   }
 
+  public static final class layout {
+    @LayoutRes
+    public static final int res = 0x7f040009;
+  }
+
   public static final class string {
     @StringRes
-    public static final int res = 0x7f040009;
+    public static final int res = 0x7f040010;
   }
 }
